@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300|Roboto+Mono:300');
+
 html, body {
-    color: ghostwhite;
+    font-family: 'Roboto', sans-serif;
     background: midnightblue;
+    color: ghostwhite;
     padding: 2.5rem;
+}
+
+.text-code {
+    font-family: 'Roboto Mono', monospace;
 }
 
 .social-icon-link {
