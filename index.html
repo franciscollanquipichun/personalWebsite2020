@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0047)http://getbootstrap.com/examples/sticky-footer/ -->
-<html lang="en">
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -14,46 +13,111 @@
     <title>Francisco Llanquipichun - @f_llanquipichun</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-<!-- Begin page content -->
-<div class="container">
     <header>
-        <h1>
-            Hello, i'm <span class="text-code">&lt;Francisco Llanquipichun&gt;</span>
-        </h1>
+        <section class="hero is-dark">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title">
+                    Hello, i'm <span class="text-code">&lt;Francisco Llanquipichun&gt;</span>
+                </h1>
+                <h2 class="subtitle">
+                  Software engineer/developer
+                </h2>
+              </div>
+            </div>
+        </section>
     </header>
-    <section class="social">
-        <ul class="list-inline">
-            <li class="list-inline-item">
-                <a href="https://github.com/franciscollanquipichun" target="_blank" class="social-icon-link" title="github">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a href="https://stackoverflow.com/users/2736289/f-llanquipichun" target="_blank" class="social-icon-link" title="Slideshare">
-                    <i class="fab fa-stack-overflow"></i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a href="https://twitter.com/F_Llanquipichun" target="_blank" class="social-icon-link" title="Twitter">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/franciscollanquipichun" target="_blank" class="social-icon-link" title="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </li>
-        </ul>
-    </section>
-</div>
 
+    <div class="columns">
+        <!-- Main content -->
+        <div class="column is-two-thirds-desktop">
+            <section class="section">
+                <div class="container">
+                </div>
+            </section>
+        </div>
+        
+        <!-- social content -->
+        <div class="column is-one-third-desktop">
+            <section class="section">
+                <div class="container">
+                    
+                    <aside class="menu">
+                        <p class="menu-label">
+                            My places on internet
+                        </p>
+                        <ul class="menu-list">
+                        <li>
+                            <a href="https://github.com/franciscollanquipichun" target="_blank" title="github">
+                                <span class="icon">
+                                <i class="fab fa-github"></i>
+                                </span>
+                                <span>GitHub</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/users/2736289/f-llanquipichun" target="_blank" class="social-icon-link" title="Slideshare">
+                                <span class="icon">
+                                    <i class="fab fa-stack-overflow"></i>
+                                </span>
+                                <span>stack<strong>overflow</strong></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/F_Llanquipichun" target="_blank" class="social-icon-link" title="Twitter">
+                                <span class="icon">
+                                    <i class="fab fa-twitter"></i>
+                                </span>
+                                <span>twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/franciscollanquipichun" target="_blank" class="social-icon-link" title="LinkedIn">
+                                <span class="icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </span>
+                                <span>LinkedIn</span>
+                            </a>
+                        </li>
+                        </ul>
+                    </aside>
+
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="columns">
+            <!-- Main content -->
+            <div class="column is-two-thirds-desktop">
+                <div class="content">
+                    <p>
+                      <span id="current-year">2020</span> Francisco Llanquipichun</br>
+                    </p>
+                </div>
+            </div>
+            <div class="column is-one-third-desktop">
+                <div class="content">
+                    <p>
+                        <small>
+                            Source code in <a href="https://github.com/franciscollanquipichun/franciscollanquipichun.github.io">GitHub</a><br>
+                            More about <a href="https://pages.github.com/" target="_blank" title="GitHub Pages">GitHub Pages</a>
+                        </small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script type="application/javascript">
+    (function () {
+        document.getElementById("current-year").innerHTML = new Date().getFullYear();
+    })();
+</script>
 <script src="./js/ie10-viewport-bug-workaround.js"></script>
-
-</body></html>
+</body>
+</html>

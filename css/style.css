@@ -2,20 +2,4 @@
 
 html, body {
     font-family: 'Roboto', sans-serif;
-    background: midnightblue;
-    color: ghostwhite;
-    padding: 2.5rem;
-}
-
-.text-code {
-    font-family: 'Roboto Mono', monospace;
-}
-
-.social-icon-link {
-    color: cornflowerblue;
-    font-size: 2.5rem;
-    margin-right: 1rem;
-}
-.social-icon-link:hover {
-    color: lightblue;
 }
