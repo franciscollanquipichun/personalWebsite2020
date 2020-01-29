@@ -46,8 +46,8 @@
             <div id="navbarMainMenu" class="navbar-menu">
               <div class="navbar-start">
                 <a class="navbar-item is-active" href="#">Home</a>
-                <a class="navbar-item" href="/about">About</a>
-                <a class="navbar-item" href="/projects">Projects</a>
+                <a class="navbar-item" href="about.html">About</a>
+                <!--<a class="navbar-item" href="./projects">Projects</a>-->
               </div>
             </div>
         </nav>
@@ -68,60 +68,6 @@
     <div class="columns">
         <!-- Main content -->
         <div class="column is-two-thirds-desktop">
-            <section class="section">
-                <div class="container">
-                    <h3 class="title is-3">My skills and knowledge</h3>
-                    
-                    <div class="columns">
-
-                        <div class="column is-one-quarter">
-                            <div class="box">
-                                <p><strong>Programming languages:</strong></p>
-                                <p><span class="icon"><i class="far fa-file-code"></i></span> Php</p>
-                                <p><span class="icon"><i class="far fa-file-code"></i></span> Javascript</p>
-                                <p><span class="icon"><i class="fas fa-database"></i></span> SQL</p>
-                                <p><span class="icon"><i class="far fa-file-code"></i></span> .NET</p>
-                            </div>
-                        </div>
-
-                        <div class="column is-one-quarter">
-                            <div class="box">
-                                <p><strong>Frameworks:</strong></p>
-                                <p><span class="icon"><i class="fab fa-laravel"></i></span> Laravel</p>
-                                <p><span class="icon"><i class="far fa-file-code"></i></span> Codeigniter</p>
-                                <p><span class="icon"><i class="fab fa-typo3"></i></span> Typo3</p>
-                                <p><span class="icon"><i class="far fa-file-code"></i></span> Nativescript</p>
-                                <p><span class="icon"><i class="fab fa-angular"></i></span> Angular</p>
-                                <p><span class="icon"><i class="fab fa-vuejs"></i></span> Vue</p>
-                                <p><span class="icon"><i class="fas fa-users"></i></span> Scrum</p>
-                            </div>
-                        </div>
-
-                        <div class="column is-one-quarter">
-                            <div class="box">
-                                <p><strong>Tools:</strong></p>
-                                <p><span class="icon"><i class="fas fa-code-branch"></i></span> GIT</p>
-                                <p><span class="icon"><i class="fab fa-docker"></i></span> Docker</p>
-                                <p><span class="icon"><i class="fas fa-tasks"></i></span> Sonarqube</p>
-                            </div>
-                        </div>
-
-                        <div class="column is-one-quarter">
-                            <div class="box">
-                                <p><strong>Others:</strong></p>
-                                <p><span class="icon"><i class="far fa-file-code"></i></span> HTML</p>
-                                <p><span class="icon"><i class="far fa-file-code"></i></span> XML</p>
-                                <p><span class="icon"><i class="fas fa-hashtag"></i></span> CSS</p>
-                                <p><span class="icon"><i class="fas fa-database"></i></span> PostgreSQL</p>
-                                <p><span class="icon"><i class="fas fa-database"></i></span> MySQL</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    
-                </div>
-            </section>
-
             <section class="section">
                 <div class="container">
                     <h3 class="title is-3">My work experience</h3>
@@ -293,23 +239,6 @@
             </div>
         </div>
     </footer>
-<script>
-document.getElementById("current-year").innerHTML = new Date().getFullYear();
-
-// Navbar toogle implementation from BULMA
-document.addEventListener('DOMContentLoaded', () => {
-    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-    if ($navbarBurgers.length > 0) {
-        $navbarBurgers.forEach( el => {
-            el.addEventListener('click', () => {
-            const target = el.dataset.target;
-            const $target = document.getElementById(target);
-            el.classList.toggle('is-active');
-            $target.classList.toggle('is-active');
-            });
-        });
-    }
-});
-</script>
+    <script src="js/main.js"></script>
 </body>
 </html>
