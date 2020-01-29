@@ -1,3 +1,4 @@
+// set current year
 document.getElementById("current-year").innerHTML = new Date().getFullYear();
 
 // Navbar toogle implementation from BULMA
