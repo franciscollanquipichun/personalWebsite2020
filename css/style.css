@@ -3,3 +3,6 @@
 html, body {
     font-family: 'Roboto', sans-serif;
 }
+.box-skills {
+    min-height: 264px;
+}
