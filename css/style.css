@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300|Roboto+Mono:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 html, body {
     font-family: 'Roboto', sans-serif;
 }
-.box-skills {
-    min-height: 264px;
+
+.font-code {
+    font-family: 'Roboto Mono', monospace;
 }
+
 .with-shadow {
     -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.2);
